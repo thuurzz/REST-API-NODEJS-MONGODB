@@ -15,3 +15,5 @@ Content-Type: application/json
     "userChannel": "Manual do Mundo"
 }
 ###
+GET http://localhost:3000/subscribers/6197e053a69fec6d9eb1b834
+###
