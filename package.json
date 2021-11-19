@@ -4,7 +4,7 @@
   "description": "Rest API com NodeJs e MongoDB",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon.server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
