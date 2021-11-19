@@ -1,0 +1,31 @@
+{
+  "name": "rest-api-nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "Rest API com NodeJs e MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon.server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuurzz/REST-API-NODEJS-MONGODB.git"
+  },
+  "keywords": [
+    "#mongoBD",
+    "#NodeJS",
+    "#REST",
+    "#API"
+  ],
+  "author": "@thuurzz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thuurzz/REST-API-NODEJS-MONGODB/issues"
+  },
+  "homepage": "https://github.com/thuurzz/REST-API-NODEJS-MONGODB#readme",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "nodemon": "^2.0.15"
+  }
+}
