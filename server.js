@@ -22,6 +22,10 @@ bd.once("open", ()=> console.log("Database Connected"))
 // faz o projeto aceitar padrão JSON (função de middleware)
 app.use(express.json())
 
+// definição das rotas
+const subscribersRouter = require("./routes/subscribers")
+app.use("/subscribers", subscribersRouter)
+
 // sobe servidor na porta 3000
 app.listen(3000, ()=>{
     console.log("Server running!")
