@@ -17,3 +17,11 @@ Content-Type: application/json
 ###
 GET http://localhost:3000/subscribers/6197e053a69fec6d9eb1b834
 ###
+DELETE http://localhost:3000/subscribers/6197e853822a90b5df8b7dd6
+###
+PATCH  http://localhost:3000/subscribers/6197e13ca69fec6d9eb1b839
+Content-Type: application/json
+{
+    "userName": "Ibere Tenório",
+}
+###
