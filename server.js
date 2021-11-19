@@ -20,7 +20,7 @@ bd.on("error", (err)=> console.log(err))
 bd.once("open", ()=> console.log("Database Connected"))
 
 // faz o projeto aceitar padrão JSON (função de middleware)
-app.listen(express.json())
+app.use(express.json())
 
 // sobe servidor na porta 3000
 app.listen(3000, ()=>{
